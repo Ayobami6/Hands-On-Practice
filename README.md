@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...programming, hacking and data analysis
 - 📫 How to reach me ...
 Discord:https://discord.gg/aMSXwAf8
-
+Twitter:https://twitter.com/Bami_AA?s=09
 
 
 <!---
