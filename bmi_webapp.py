@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 
-st.title("Welcome To Body Mass Index Calculator\n Programed By Ayobami Alaran")
+st.title("Welcome To Body Mass Index Calculator\n Programed by Ayobami Alaran")
 st.text("Instructions\nIf you have no idea of your height and weight figures please go back to get it\nand come back here to get your BMI\nthank you. ")
 
 st.subheader("Your height")
