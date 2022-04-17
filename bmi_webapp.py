@@ -6,10 +6,10 @@ st.title("Welcome To Body Mass Index Calculator\n Programed By Ayobami Alaran")
 st.text("Instructions\nIf you have no idea of your height and weight figures please go back to get it\nand come back here to get your BMI\nthank you. ")
 
 st.subheader("Your height")
-height = st.number_input('What is your height in cm?', 0, 300)
+height = st.number_input('What is your height in cm?', 10, 300)
 st.write(f'You height is' + " " + str(height) + 'cm')
 st.subheader("Your weight")
-weight = st.number_input('What is your weight in kg?', 0, 150)
+weight = st.number_input('What is your weight in kg?', 10, 150)
 st.write(f'You weight is' + " " + str(weight) + 'kg')
 
 
