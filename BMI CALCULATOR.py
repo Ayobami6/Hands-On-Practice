@@ -20,6 +20,6 @@ if start == "Y":
     rounded_Bmi = round(BMI, 1)
     
     print(f"Your BMI is" + " " + str(rounded_Bmi) + "kg/m^2")
-    print("You dey Kampee!")
+    print("You dey Kampee")
 
 print("Goodbye!")
