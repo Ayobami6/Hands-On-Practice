@@ -2,7 +2,7 @@
 # EDA_Project in Finance #
  
 ## By: Alaran Ayobami Abdullateef
-This is a capstone from my class in ibm data analysis with python, data provided in the classroom 
+This is a capstone project from my class in ibm data analysis with python, data provided in the classroom 
 
 ## Project Goals
 1. Explore a banking dataset with Pandas framework.
@@ -16,3 +16,9 @@ This is a capstone from my class in ibm data analysis with python, data provided
 3. What is the average call duration for the attracted clients?
 4. What is the average age among the attracted and unmarried clients?
 5. What is the average age and call duration for different types of client employment?
+
+## Libraries 
+>- Pandas
+>- Numpy
+>- Matplotlib
+>- Seaborn
