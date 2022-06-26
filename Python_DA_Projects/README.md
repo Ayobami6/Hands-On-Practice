@@ -1,3 +1,3 @@
 ## Data Analysis Projects Using Python
-### Ayobami Alaran Abdullateef 
+### Ayobami Alaran 
 This repository contains all my personal projects using python 
