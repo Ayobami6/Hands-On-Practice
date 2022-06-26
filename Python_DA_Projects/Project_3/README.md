@@ -1,4 +1,4 @@
-![images.jpg](Images/Img_1.jpg)
+![images.jpg](Img_1.jpg)
 
 ## Title: Data-Wrangling Report On WeRateDogs Twitter Account Tweets From 2015 -2017
 ### Presented by: Ayobami Alaran
