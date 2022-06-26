@@ -1,0 +1,74 @@
+---
+title: "EDA_on_diamonds_dataset"
+author: "Ayobami Alaran"
+date: '2022-06-26'
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Exploratory Data Analysis on Diamond dataset
+
+## Importing the libraries
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+### Assessing the dataset
+head functions shows the top 6 rows of the set
+```{r}
+head(diamonds)
+```
+
+```{r}
+str(diamonds)
+```
+
+```{r}
+glimpse(diamonds)
+```
+
+Lets check the column names 
+```{r}
+colnames(diamonds)
+```
+
+### Cleaning the data
+
+Renaming the color column name to colour
+```{r}
+rename(diamonds, colour=color)
+```
+
+## Exploratory data analysis
+
+What is the average carat of the diamond
+```{r}
+summarise(diamonds, avg_carat=mean(carat)) 
+```
+
+## Data Visualization
+showing the relationship between the diamond carat and price 
+```{r}
+ggplot(data = diamonds, ) +
+  geom_point(mapping=aes(x = carat, y = price))
+```
+```{r}
+cor(select(diamonds, carat, price))
+```
+## Interpretation 
+from the data viz result, we can see that there is an upward movement in the trend that is there is a relationship between the the two variables, the bigger the carat the higher the price. 
+for further investigation, the correlation shows that there is 0.92 correlation between the carat and price.
+
+```{r}
+ggplot(data = diamonds, aes(x = carat, y = price, color = cut)) +
+  geom_point()
+```
+
+
+
+
