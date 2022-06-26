@@ -1,4 +1,5 @@
-- 👋 Hi, I’m @Ayobami6
+- ## 👋 Hi, I’m Ayobami Alaran Abdullateef
+This 
 - 👀 I’m interested in ... Programming, ethical hacking, data science,data analysis, and business analytics 
 - 🌱 I’m currently learning ... Python programming language and Sql
 - 💞️ I’m looking to collaborate on ...programming, hacking and data analysis
