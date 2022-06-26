@@ -1,4 +1,4 @@
-![images.png](attachment:images.png)
+![images.jpg](Images/Img_2.jpg)
 # EDA_Project in Finance #
  
 ## By: Alaran Ayobami Abdullateef

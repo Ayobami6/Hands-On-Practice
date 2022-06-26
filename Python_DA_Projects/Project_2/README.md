@@ -1,5 +1,6 @@
-
+![images.jpg](Images/Img_3.jpg)
 # Project: NCIS-Gun Data Analysis
+## Presented by: Ayobami Alaran Abdullateef
 
 ## Table of Contents
 <ul>
