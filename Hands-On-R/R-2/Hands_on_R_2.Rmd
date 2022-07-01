@@ -1,0 +1,70 @@
+---
+title: "Hand_on_2"
+author: "Ayobami Alaran"
+date: '2022-07-01'
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Importing the libraries
+
+```{r}
+library(janitor)
+library(skimr)
+library(tidyverse)
+```
+
+### reading in the dataset 
+```{r}
+data_ <- read_csv('hotel_bookings.csv')
+```
+### Investigating the dataset 
+```{r}
+head(data_)
+```
+
+```{r}
+str(data_)
+```
+
+```{r}
+glimpse(data_)
+```
+
+### Analysis
+```{r}
+sorted_data <- arrange(data_, desc(lead_time))
+```
+
+### filtering for only city hotels 
+```{r}
+city_hotel_data <- filter(data_, data_$hotel=="City Hotel")
+```
+
+#### Summary analysis
+```{r}
+analyzed_data <- data_ %>% 
+  group_by(hotel) %>% 
+  summarize(avg_lead_time=mean(lead_time),
+            min_lead_time=min(lead_time),
+            max_lead_time=max(lead_time))
+```
+This gives a summary statistics for the two hotel types in the datset 
+
+### Plotting the average lead_time for the two hotels
+```{r}
+ggplot(analyzed_data, aes(x=hotel,
+                          y=avg_lead_time, fill=hotel)) +
+  geom_bar(stat = 'identity') + labs(x='Hotels', y='Average Lead Time',
+                                     title = 'The Average Lead Time Per Hotel') +
+  geom_text(aes(label = round(avg_lead_time, digits=2)), 
+            size = 3, 
+            position = position_stack(vjust = 0.5))
+```
+The visualization shows the average lead time for the two hotels
+
