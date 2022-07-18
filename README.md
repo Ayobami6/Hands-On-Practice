@@ -1,5 +1,5 @@
 - ## 👋 Hi, I’m Ayobami Alaran Abdullateef
-This Repository contains all my works and personal case study projects
+This Repository contains all my works, hands-on practice and classess-exercise
 
 ## - 📫 How to reach me ...
 Discord:https://discord.gg/aMSXwAf8
